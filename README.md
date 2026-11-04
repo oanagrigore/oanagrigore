@@ -18,6 +18,12 @@ I ask a lot of questions, build the system before the screens, and treat accessi
 
 **Electronic Arts.** Brand Designer (2016–2019). Where I learned that consistency is a system, not a mood.
 
+### The tools I am building
+
+[**Wireframe Kit**](https://github.com/oanagrigore/wireframe-kit): Copywriters and PMs shape a page long before a designer sees it, but in a doc you can't see that the headline wraps to four lines or that the FAQ belongs higher. I built an open-source visual page builder (MIT) for them: 66 responsive sections as Astro components, live WCAG 2.2 AA contrast checks, and exports for HTML and Astro. It doesn't skip design; it gives design a tested story to start from. Pick sections → try versions → hand off. [Try it](https://ogrigore.design/lab/wireframe-kit).
+
+[**Token Pipeline**](https://github.com/oanagrigore/token-pipeline): White-label products ship one design system in many brands, and someone's brand color always fails contrast in dark mode. I built an open-source tool (MIT) that takes one seed color per brand, generates light and dark semantic tokens, checks every pair a real screen uses against WCAG 2.2 AA, fixes failures by moving lightness only, and exports CSS, Tailwind v4 and DTCG JSON. Seed → derive → gate → export. [Try it](https://ogrigore.design/lab/tokens).
+
 ---
 
 ### Methods I use often
